@@ -22,10 +22,6 @@ lib/SVN/TeamTools/Store/Repo.pm
 lib/SVN/TeamTools/Store/SvnIndex.pm
 LICENSE
 MANIFEST			This list of files
-MANIFEST.bak
 MANIFEST.SKIP
 script/Indexer
 t/00-compile.t
-Makefile.PL
-META.yml
-META.json

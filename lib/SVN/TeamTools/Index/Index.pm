@@ -4,7 +4,7 @@ use warnings;
 
 package SVN::TeamTools::Index::Index;
 {
-        $SVN::TeamTools::Index::Index::VERSION = '0.01';
+        $SVN::TeamTools::Index::Index::VERSION = '0.002';
 }
 # ABSTRACT: Parent object for all Lucy indexes used by SVN::TeamTools
 

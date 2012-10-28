@@ -4,7 +4,7 @@ use warnings;
 
 package SVN::TeamTools::Store::Repo;
 {
-        $SVN::TeamTools::Store::Repo::VERSION = '0.01';
+        $SVN::TeamTools::Store::Repo::VERSION = '0.002';
 }
 # ABSTRACT: Common methods for accessing a SubVersion Repository
 

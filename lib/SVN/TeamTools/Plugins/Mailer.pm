@@ -4,7 +4,7 @@ use warnings;
 
 package SVN::TeamTools::Plugins::Mailer;
 {
-        $SVN::TeamTools::Plugins::Mailer::VERSION = '0.01';
+        $SVN::TeamTools::Plugins::Mailer::VERSION = '0.002';
 }
 # ABSTRACT: Module to allow TeamTools to send email
 #

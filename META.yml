@@ -23,25 +23,25 @@ provides:
     version: 0
   SVN::TeamTools::Index::Index:
     file: lib/SVN/TeamTools/Index/Index.pm
-    version: 0.01
+    version: 0.002
   SVN::TeamTools::Index::PrefixQuery:
     file: lib/SVN/TeamTools/Index/PrefixQuery.pm
-    version: 0.01
+    version: 0.002
   SVN::TeamTools::Indexer:
     file: lib/SVN/TeamTools/Indexer.pm
-    version: 0.01
+    version: 0.002
   SVN::TeamTools::Plugins::Mailer:
     file: lib/SVN/TeamTools/Plugins/Mailer.pm
-    version: 0.01
+    version: 0.002
   SVN::TeamTools::Store::Config:
     file: lib/SVN/TeamTools/Store/Config.pm
-    version: 0.01
+    version: 0.002
   SVN::TeamTools::Store::Repo:
     file: lib/SVN/TeamTools/Store/Repo.pm
-    version: 0.01
+    version: 0.002
   SVN::TeamTools::Store::SvnIndex:
     file: lib/SVN/TeamTools/Store/SvnIndex.pm
-    version: 0.01
+    version: 0.002
   resultArr:
     file: lib/SVN/TeamTools/Index/Index.pm
     version: 0
@@ -67,4 +67,4 @@ requires:
   perl: v5.8.8
 resources:
   license: http://opensource.org/licenses/gpl-license.php
-version: 0.001
+version: 0.002

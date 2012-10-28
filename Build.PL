@@ -35,9 +35,12 @@ my $builder = Module::Build->new(
 			XML::Simple => 0,
 			SVN::Look => 0,
 		},
-		dist_version => '0.001',
+		dist_version => '0.002',
 		script_files => ['script/Indexer'],
 		install_path => {conf=> '/etc/svnteamtools/', log=>'/var/log/svnteamtools/', lucy=>'/var/svnteamtools/svnrepo'},
+		conf_files => {'extra/conf/system.conf'=>'conf/system.conf'},
+		log_files => {'extra/log/messages.log'=>'log/messages.log'},
+		lucy_files => {'extra/lucy/README.lucy'=>'lucy/README.lucy'},
 		create_makefile_pl => 'traditional'
          );
 $builder->add_build_element('log');

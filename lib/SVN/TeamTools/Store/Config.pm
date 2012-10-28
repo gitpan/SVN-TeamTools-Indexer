@@ -4,7 +4,7 @@ use warnings;
 
 package SVN::TeamTools::Store::Config;
 {
-	$SVN::TeamTools::Store::Config::VERSION = '0.01';
+	$SVN::TeamTools::Store::Config::VERSION = '0.002';
 }
 # ABSTRACT: COmmon accessor for configuration file used by SVN::TeamTools modules
 

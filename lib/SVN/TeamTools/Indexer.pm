@@ -4,7 +4,7 @@ use warnings;
 
 package SVN::TeamTools::Indexer;
 {
-        $SVN::TeamTools::Indexer::VERSION = '0.01';
+        $SVN::TeamTools::Indexer::VERSION = '0.002';
 }
 # ABSTRACT: Created a Lucy index on a SVN repository.
 
@@ -133,22 +133,32 @@ SVN::TeamTools::Indexer
 
 =head1 SYNOPSIS
 
-use SVN::TeamTools::Indexer;
+=head2 As a module
 
-SVN::TeamTools::Indexer->run();
+    use SVN::TeamTools::Indexer;
+    SVN::TeamTools::Indexer->run();
+
+=head2 From the command line
+
+    Indexer #(for an incremental run)
+
+    Indexer --createindex # For the initial index build or to re-initialize
 
 =head1 DESCRIPTION
 
-Builds a Lucy index for a SVN repository. If an index already exists and no command line option 'createindex' is issued, the process is incremental. Only new revisions are indexed.
+Builds a Lucy index for a SVN repository. If an index already exists and no command 
+line option 'createindex' is issued, the process is incremental. Only new revisions are indexed.
 
 TODO: include index structure and examples how to use it.
 
 =head2 Tested Environments:
+
 This module has been developed and tested on CentOs 6.3, no guarantees are given
 that it should work on other systems. Please inform me (markleeuw@gmail.com)
 whenever an installation on a different platform fails (please provide build.log).
 
 =head2 Prerequisits:
+
 This module is known to have the following requirements on CentOs 6.3:
 - subversion
 - perl-CPAN
@@ -157,7 +167,7 @@ This module is known to have the following requirements on CentOs 6.3:
 - gcc-c++
 
 To install there requirements use:
-yum install perl-CPAN perl-YAML perl-XML-Parser gcc-c++ make
+    yum install perl-CPAN perl-YAML perl-XML-Parser gcc-c++ make
 
 
 =head1 AUTHOR

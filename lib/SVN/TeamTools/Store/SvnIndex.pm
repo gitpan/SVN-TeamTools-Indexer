@@ -4,7 +4,7 @@ use warnings;
 
 package SVN::TeamTools::Store::SvnIndex;
 {
-        $SVN::TeamTools::Store::SvnIndex::VERSION = '0.01';
+        $SVN::TeamTools::Store::SvnIndex::VERSION = '0.002';
 }
 # ABSTRACT: Common methods for accessing a SVN Lucy Index 
 

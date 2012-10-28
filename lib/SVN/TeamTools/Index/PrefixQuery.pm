@@ -4,7 +4,7 @@ use warnings;
 
 package SVN::TeamTools::Index::PrefixQuery;
 {
-        $SVN::TeamTools::Index::PrefixQuery::VERSION = '0.01';
+        $SVN::TeamTools::Index::PrefixQuery::VERSION = '0.002';
 }
 # ABSTRACT: Used to restrict searches based on a base path
 

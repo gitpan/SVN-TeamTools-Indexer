@@ -17,7 +17,7 @@ do{ my $x = [
          'scripts' => undef,
          'pod_files' => undef,
          'config_dir' => '_build',
-         'dist_version' => '0.001',
+         'dist_version' => '0.002',
          'sign' => undef,
          'recurse_into' => [],
          'build_bat' => 0,
@@ -35,7 +35,13 @@ do{ my $x = [
          'destdir' => undef,
          'metafile' => 'META.yml',
          'mb_version' => '0.4003',
+         'lucy_files' => {
+                           'extra/lucy/README.lucy' => 'lucy/README.lucy'
+                         },
          'use_tap_harness' => 0,
+         'log_files' => {
+                          'extra/log/messages.log' => 'log/messages.log'
+                        },
          'test_file_exts' => [
                                '.t'
                              ],
@@ -65,9 +71,7 @@ do{ my $x = [
          'meta_merge' => {},
          'get_options' => {},
          'dist_version_from' => undef,
-         '_added_to_INC' => [
-                              '/u01/build/Indexer/lib'
-                            ],
+         '_added_to_INC' => [],
          'auto_configure_requires' => 1,
          'create_license' => undef,
          'debugger' => undef,
@@ -87,10 +91,10 @@ do{ my $x = [
                                'conf',
                                'lucy'
                              ],
-         'release_status' => 'stable',
          'needs_compiler' => '',
-         'orig_dir' => '/u01/build/Indexer',
+         'release_status' => 'stable',
          'include_dirs' => [],
+         'orig_dir' => '/u01/build/Indexer',
          'installdirs' => 'site',
          'test_requires' => {
                               'Test::More' => 0
@@ -143,6 +147,9 @@ do{ my $x = [
          'autosplit' => undef,
          'license' => 'gpl',
          'build_requires' => {},
+         'conf_files' => {
+                           'extra/conf/system.conf' => 'conf/system.conf'
+                         },
          'config' => undef,
          'blib' => 'blib',
          'prefix' => undef
